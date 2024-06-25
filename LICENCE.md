@@ -69,26 +69,29 @@ b. __Other rights.__
 ### Section 3 – License Conditions.
 Your exercise of the Licensed Rights is expressly made subject to the following conditions.
 
-  a. __Attribution.__
+a. __Attribution.__
 
-    1. If You Share the Licensed Material (including in modified form), You must:
+  1. If You Share the Licensed Material (including in modified form), You must:
 
       A. retain the following if it is supplied by the Licensor with the Licensed Material:
 
-        i. identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);
+      i. identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);
 
-         ii. a copyright notice;
+      ii. a copyright notice;
 
-         iii. a notice that refers to this Public License;
+      iii. a notice that refers to this Public License;
 
-         iv. a notice that refers to the disclaimer of warranties;
+      iv. a notice that refers to the disclaimer of warranties;
 
-         v. a URI or hyperlink to the Licensed Material to the extent reasonably practicable;
+      v. a URI or hyperlink to the Licensed Material to the extent reasonably practicable;
+
       B. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and
+      
       C. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.
-    2. You may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.
-    3. If requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.
-    4. If You Share Adapted Material You produce, the Adapter's License You apply must not prevent recipients of the Adapted Material from complying with this Public License.
+
+  2. You may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.
+  3. If requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.
+  4. If You Share Adapted Material You produce, the Adapter's License You apply must not prevent recipients of the Adapted Material from complying with this Public License.
 
 ### Section 4 – Sui Generis Database Rights.
 Where the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:
@@ -107,13 +110,14 @@ b. __To the extent possible, in no event will the Licensor be liable to You on a
 c. The disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.
 
 ### Section 6 – Term and Termination.
+
 a. This Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.
 b. Where Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:
 
-    1. automatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or
-    2. upon express reinstatement by the Licensor.
+  1. automatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or
+  2. upon express reinstatement by the Licensor.
 
-    For the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.
+  For the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.
 
 c. For the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.
 
