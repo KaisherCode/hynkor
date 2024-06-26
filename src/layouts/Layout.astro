@@ -15,13 +15,32 @@ const {title,description} = Astro.props;
     <title>{title}</title>
   </head>
   <body>
-    <div>
+    <main>
       <slot/>
-    </div>
-    <style is:global>
-     html{
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     }
-    </style>
+    </main>
   </body>
 </html>
+<style is:global>
+  :root{
+    --color-primary: #00A99D;
+    --color-secondary: #F72585;
+    --color-terciary: #7209B7;
+    --color-quarter: #4361ee;
+    --accent:#3A0CA3;
+
+  }
+  html{
+    background-color: #f1f5f9;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0 auto;
+    width: 100%;
+    line-height: 1.5;
+    /* max-width: 100ch; */
+
+  }
+ </style>
