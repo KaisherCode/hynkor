@@ -1,0 +1,32 @@
+---
+import SocialPill from "@/components/SocialPill.astro";
+import EmailIcon from "@/icons/Email.astro";
+import WhatsAppIcon from "@/icons/WhatsApp.astro";
+const fondoImageAlt = "Imagen de Diseño web"
+---
+
+<section class="w-full flex flex-col items-center justify-center md:flex-row gap-8 lg:px-32 px-4 lg:py-24 py-4 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-rose-500 to-90%">
+  <div class="text-white lg:text-start text-center order-2 md:order-1">
+    <h1 class="text-3xl font-bold mb-4 ">Diseño y Desarrollo Web a medida y a requerimiento del cliente</h1>
+    <p class="mb-4 text-2xl text-white">
+      Bienvenido a Hynkor, brindamos soluciones integrales de diseño
+      y desarrollo web que inpulsan el éxito de tu negocio en internet.
+    </p>
+    <nav class="flex flex-wrap gap-4 mt-8">
+      <SocialPill href="mailto:ventas@hynkor.com">
+        <EmailIcon class="size-4"/>
+        Contáctenos
+      </SocialPill>
+      <SocialPill href="https://wa.link/cy1fgw">
+        <WhatsAppIcon class="size-4"/>
+        Abrir chat
+      </SocialPill>
+    </nav>
+    </div>
+    <img 
+      class="order-1 object-cover md:order-2"
+      src="/web-design.svg" 
+      alt={fondoImageAlt} 
+      width="400px" 
+      height="400px">
+</section>
