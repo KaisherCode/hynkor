@@ -1,0 +1,138 @@
+---
+import CodeBracketIcon from "@/icons/CodeBracket.astro";
+import DevicePhoneIcon from "@/icons/DevicePhone.astro";
+import GlassCircleIcon from "@/icons/GlassCircle.astro";
+import ComputerDesktopIcon from "@/icons/ComputerDesktop.astro";
+import CheckIcon from "@/icons/Check.astro";
+  
+const SERVICES = [
+  {
+    title: "Diseño y Desarrollo Web",
+    link: "#projects",
+    img:"/web-design.svg",
+    items: [
+      "Diseño web responsive y personalizado",
+      "Desarrollo de tiendas virtuales",
+      "Mejora y despliegue con A/B testing",
+    ],
+  },
+  {
+    title: "Desarrollo de Apps Móviles",
+    link: "",
+    img:"/web-design.svg",
+    items: [
+      "Apps nativas para IOs y android",
+      "Apps híbridas y multiplataforma",
+      "Actualización y mantenimiento de Apps móviles",
+    ],
+  },
+  {
+    title: "Posecionamiento y SEO",
+    link: "",
+    img:"/web-design.svg",
+    items: [
+      "Optimización para motores de búsqueda",
+      "Optimización de contenido y análisis de palabras clave",
+      "Sitemap y informe técnicas de SEO",
+    ],
+  },
+  {
+    title: "Desarrollo de Software a Medida",
+    link: "",
+    img:"/web-design.svg",
+    items: [
+      "Desarrollo de aplicaciones personalizadas",
+      "Soluciones de software empresarial",
+      "Microservicios y automatización",
+    ],
+  },
+];
+---
+
+<section class="w-full h-auto text-just-white relative">
+  <span class="absolute -top-5 left-[calc(50%-40px/2)]"
+    ><CodeBracketIcon class="text-teal-300 size-10" /></span
+  >
+  <div class="text-center pb-5 px-64">
+    <h2
+      class="font-normal text-3xl pt-14 text-indigo-500 [&>strong]:text-indigo-600"
+    >
+      Conozca <strong>Nuestros Servicios</strong> y destaca en el <strong
+        >Mundo Digital</strong
+      >
+    </h2>
+    <p class="pt-4 font-semibold text-2xl text-indigo-500/80">
+      Desarrollamos tu sitio web, de tal manera que brindes una excelente
+      expericiencia al usuario y poder posecionar en primeros lugares de
+      búsqueda. Entregamos expericiencias creativas a medida, diseñamos y
+      desarrollamos páginas web modernas, elegantes y funcionales.
+    </p>
+  </div>
+  <section
+    class="lg:grid grid-rows-2 md:grid-flow-col justify-center md:justify-center pb-4 [&>article]:bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-rose-500 to-90% [&>article>h3]:text-white [&>article>ul>li]:text-white"
+  >
+    {
+      SERVICES.map(({ title, link, items, img }) => (
+        <article class="card [&>ul>li]:flex p-4 m-4 rounded-md min-w-72 max-w-96 border-2 border-solid border-black hover:border-teal-500 ">
+          <img src={img} class="size-10" alt="">
+          <h3 class="font-bold text-xl pt-3">{title}</h3> 
+          <ul class="pb-4">
+            {items.map((item) => (
+              <li>
+                <CheckIcon />
+                {item}
+              </li>
+            ))}
+          </ul>
+          <a href={link} class="text-white">Ver más</a>
+        </article>
+      ))
+    }
+
+    <!-- <article class="card [&>p]:flex p-4 m-4 rounded-md min-w-72 max-w-96 border-2 border-solid border-black hover:border-teal-500">
+      <DevicePhoneIcon class="text-teal-300 size-6" />
+      <h3 class="font-bold text-xl pt-3">Desarrollo de Apps Móviles</h3>
+      <p>
+        <CheckIcon/>
+        Apps nativas para IOs y android
+      </p>
+      <p><CheckIcon/>Apps híbridas y multiplataforma</p>
+      <p><CheckIcon/>Actualización y mantenimiento de Apps móviles</p>
+    </article>
+    <article class="card [&>p]:flex p-4 m-4 rounded-md min-w-72 max-w-96 border-2 border-solid border-black hover:border-teal-500">
+      <GlassCircleIcon class="text-teal-300 size-6" />
+      <h3 class="font-bold text-xl pt-3">Posecionamiento y SEO</h3>
+      <p>
+        <CheckIcon/>Optimización para motores de búsqueda
+      </p>
+      <p>
+        <CheckIcon/>Optimización de contenido y análisis de palabras clave.
+      </p>
+      <p><CheckIcon/>Sitemap y informe técnicas de SEO</p>
+    </article>
+    <article class="card [&>p]:flex p-4 m-4 rounded-md min-w-72 max-w-96 border-2 border-solid border-black hover:border-teal-500">
+      <ComputerDesktopIcon class="text-teal-300 size-6" />
+      <h3 class="font-bold text-xl pt-3">Desarrollo de Software a Medida</h3>
+      <p>
+        <CheckIcon/>Desarrollo de aplicaciones personalizadas
+      </p>
+      <p>
+        <CheckIcon/>Soluciones de software empresarial
+      </p>
+      <p>
+        <CheckIcon/>Microservicios y automatización
+      </p>
+    </article> -->
+  </section>
+</section>
+<!-- <style>
+  .card {
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    border: 2px solid #0000;
+    background:
+      linear-gradient(teal, indigo) padding-box,
+      linear-gradient(#fd8f0b, black) border-box;
+  }
+</style> -->
