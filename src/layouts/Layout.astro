@@ -1,4 +1,6 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
+import ButtonUp from '@/components/ButtonUp.astro'
 interface Props {
   title: string;
   description: string;
@@ -14,11 +16,13 @@ const {title,description} = Astro.props;
     <meta name="description" content={description}>
     <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
     <title>{title}</title>
+    <ViewTransitions/>
   </head>
   <body>
     <main>
       <slot/>
     </main>
+    <ButtonUp/>
   </body>
 </html>
 <style is:global>
