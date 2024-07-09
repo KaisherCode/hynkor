@@ -68,7 +68,7 @@ const SERVICES = [
   >
     {
       SERVICES.map(({ title, link, items, icon}) => (
-        <article class="card [&>ul>li]:flex p-4 m-4 rounded-md min-w-72 max-w-96 border-2 border-solid border-black hover:border-teal-500 ">
+        <article class="card [&>ul>li]:flex p-4 m-4 rounded-md min-w-72 max-w-96 border-2 border-solid border-gray-500 hover:border-teal-500 ">
           <img src={icon} class="size-6" alt={title}>
           <h3 class="font-bold text-xl pt-3">{title}</h3> 
           <ul class="pb-4">
@@ -79,7 +79,7 @@ const SERVICES = [
               </li>
             ))}
           </ul>
-          <a href={link} role="link" class="inline-flex items-center text-white font-medium text-lg">
+          <a href={link} role="link" class="inline-flex items-center text-emerald-400 font-medium text-lg">
             Ver más <ChevronRightIcon/>
           </a>
         </article>
